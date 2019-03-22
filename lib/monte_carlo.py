@@ -1,4 +1,5 @@
 from collections import defaultdict
+from lib.util import *
 
 
 def monte_carlo(env, policy, n_episodes=5, gamma=0.9):
